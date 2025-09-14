@@ -19,9 +19,9 @@ pip3 install -r requirements.txt
 
 Для тестирования на своем изображении и выводе в формате plt (опционально cv2, file):
 ```
-python main.py -i path/to/image.jpg -o plt
+python cv_1_44_find_contours.py -i path/to/image.jpg -o plt
 ```
 Для тестирования на сгенерированном изображении:
 ```
-python main.py -o plt
+python cv_1_44_find_contours.py -o plt
 ```
